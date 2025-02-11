@@ -39,7 +39,7 @@ No es necesario instalar ningún servidor para visualizar este sitio web, ya que
 
 1. Descarga el repositorio o clona el proyecto:
     ```bash
-    git clone https://github.com/tuusuario/tienda-online-tennis.git
+    git clone git@github.com:JorgeDircio/TIenda-Tennis.git
     ```
 
 2. Abre el archivo `index.html` en tu navegador web.
