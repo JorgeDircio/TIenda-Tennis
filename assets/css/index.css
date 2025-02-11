@@ -1,0 +1,463 @@
+
+
+/* HEADER CON NAVEGACION */
+.headerTennis{
+    position: absolute;
+    padding: 40px 50px;
+    width: 100%;
+}
+.headerTennis > nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding-left: 120px;
+    width: 100%;
+}
+
+.headerTennis > nav > div > a{
+    color: var(--white);
+    font-size: 16px;
+    letter-spacing: 1.4px;
+    font-weight: normal;
+    position: relative;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+.headerTennis > nav > div > a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: rgb(240, 236, 236);
+    transition: width 0.3s ease-in-out;
+}
+.headerTennis > nav > div > a:hover::after{
+    width: 100%;
+}
+
+/* Estilos para el menú hamburguesa */
+.menu-hamburguesa {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    padding: 5px;
+}
+.menu-hamburguesa > img{
+    width: 30px;
+    height: 30px;
+}
+
+.navegacionPaginas {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.navegacionPaginas.mostrar {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    background-color: var(--sickly-yellow);
+    width: 100%;
+    padding: 20px;
+}
+
+.navegacionPaginas a {
+    color: var(--white);
+    font-size: 16px;
+    letter-spacing: 1.4px;
+    font-weight: normal;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+
+.cambiarIdioma {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-right: 0px;
+}
+
+
+/*CONTENIDO DE LA PAGINA */
+
+.contenidoTennis{
+    width: 100%;
+}
+
+.groupTennis{
+    width: 100%;
+    background-image: url("../img/group.webp");
+    /* background-size: cover; */
+    height: 785px;
+    margin: 0 0 4px;
+    padding: 25px 94px 276px 36px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); */
+    background-position: -50px 0px;
+}
+
+.pelotaB{
+    position: absolute;
+    top: 0px;
+    width: 110px;
+    height: 785px;
+    text-align: center;
+    border-right: 2px solid var(--white);
+}
+
+.Fill-2{
+    margin-top: 25px;
+    width: 37px;
+    height: 37px;
+}
+
+.groupTennis > div{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 130px;
+    padding-top: 220px;
+}
+.groupTennis > div > h1{
+    font-size: 48px;
+    color: var(--white);
+    font-weight: normal;
+    width: 60%;
+}
+.groupTennis > div > h1 > span{
+    font-size: 45.5px;
+    color: var(--sickly-yellow);
+    font-weight: bold;
+}
+.rectangulo{
+    padding: 13px 30px;
+    border-radius: 26.5px;
+    border: solid 1px var(--white);
+    background: none;
+    margin-top: 25px;
+    color: var(--white);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    font-weight: bold;
+}
+.rectangulo:hover{
+    background-color: var(--white);
+    color: var(--dark);
+}
+
+.rectangulo > img{
+    width: 20px;
+}
+/* groupAccesorios*/
+
+.groupAccesorios{
+    background-color: var(--pale-grey);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 350px;
+    padding-top: 100px;
+    width: 100%;
+}
+.groupAccesoriosTennis{
+    /* background-color: chartreuse; */
+    padding-top: 20px;
+    padding-right: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 30%;
+    text-align: end;
+    
+}
+.groupAccesoriosTennis > p{
+    color: var(--sickly-yellow);
+}
+.groupAccesoriosRaquetas{
+    /* background-color: blueviolet; */
+    width: 40%;
+    padding-left: 50px;
+}
+.groupAccesoriosRaquetas > h1{
+    font-size: 47px;
+    font-weight: 100;
+    font-style: normal;
+}
+.groupAccesoriosRaquetas > p{
+    margin-top: 25px;
+    color: var(--warm-grey);
+    line-height: 1.78;
+
+}
+
+.groupAccesoriosHistoria{
+    /* background-color: brown;  */
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    padding-left: 50px;
+    margin-bottom: 40px;
+    width: 30%;
+}
+.groupAccesoriosHistoria > a{
+    width: 234px;
+    height: 53px;
+    margin: 49px 0 0;
+    padding: 15px 38px;
+    border-radius: 26.5px;
+    background: none;
+    border: solid 1px var(--dark-three);
+    color: #273048;
+    font-weight: bold;
+}
+.groupAccesoriosHistoria > a:hover{
+    background-color: var(--white);
+    color: var(--dark);
+}
+
+
+.groupAccesoriosHistoria > a > span{
+    /* background-color: #cbe346; */
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+
+/* groupRaquetas */
+.groupRaquetas {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width: 100%;
+}
+
+.groupRaquetas-carrusel {
+    background-repeat: no-repeat;
+    width: 37%;
+    padding-top: 70px;
+    padding-left: 200px;
+    padding-right: 80px;
+    color: var(--white);
+    text-align: start;
+    line-height: 2;
+    position: relative;
+    transition: background 0.5s ease-in-out;
+}
+
+.groupRaquetas-carrusel > h1 {
+    font-size: 45px;
+    line-height: 1.2;
+    font-weight: 100;
+    /* background-color: aqua; */
+    width: 300px;
+}
+
+.groupRaquetas-carrusel > div {
+    margin-top: 10px;
+}
+.groupRaquetas-carrusel > p {
+    /* background-color: rgb(104, 104, 37); */
+    width: 250px;
+}
+
+
+.carrusel-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carrusel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carrusel-item {
+    width: 100%;
+    flex: 0 0 100%;
+}
+
+.op-carrusel {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--lightgray);
+    cursor: pointer;
+}
+
+.op-carrusel.activo {
+    background-color: var(--sickly-yellow) !important;
+}
+
+.antescarrusel,
+.siguientecarrusel {
+    background: var(--sickly-yellow);
+    border: none;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-size: 16px;
+}
+
+.antescarrusel {
+    left: 40%;
+    top: 83%;
+    padding: 10px;
+    color: var(--white);
+    text-align: center;
+}
+
+.siguientecarrusel {
+    right: 40%;
+    top: 83%;
+    padding: 10px;
+    color: var(--white);
+}
+
+.groupRaquetas-slider {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding-left: 50px;
+    overflow: hidden; /* Asegura que las imágenes fuera de pantalla no se vean */
+    white-space: nowrap;
+}
+
+.groupRaquetas-slider > div {
+    display: none; /* Inicialmente oculto */
+    flex: 0 0 auto;
+    padding: 10px;
+    background-color: var(--pale-grey);
+    position: relative;
+    border-radius: 21px;
+}
+
+.groupRaquetas-slider > div.active {
+    display: block; /* Solo se muestra la imagen activa */
+}
+
+
+.groupRaquetas-slider > div > img {
+    width: 210px;
+}
+
+.groupRaquetas-slider > div > span {
+    position: absolute;
+    background-color: #cbe346;
+    top: 0;
+    left: 0;
+    padding: 10px 15px;
+    border-radius: 40px;
+    margin: 10px;
+    color: var(--white);
+}
+
+/* groupImagen */
+
+.groupImagen{
+    width: 100%;
+    margin-bottom: -4px;
+}
+.groupImagen > img{
+    width: 100%;
+    height: auto;
+}
+
+/*Footer*/
+
+.footerTennis{
+    background-color: var(--sickly-yellow);
+    background-size: cover
+}
+
+.footerTennis > div{
+    padding: 40px 70px;
+    position: relative;
+}
+.footerTennis > div > div{
+    padding: 10px 0px;
+}
+.enlaces-footer{
+    display: flex;
+    gap: 50px;
+}
+
+.enlaces-footer > a{
+    color: var(--dark-two);
+    font-style: normal;
+}
+
+.redes-sociales a {
+    display: inline-flex; /* Hace que el enlace sea un contenedor flexible */
+    justify-content: center; /* Centra el ícono dentro del enlace */
+    align-items: center; /* Centra verticalmente */
+    width: 48px; /* Mínimo recomendado para accesibilidad */
+    height: 48px;
+    margin: 8px; /* Espaciado entre los íconos */
+}
+
+.redes-sociales a img {
+    width: 32px; /* Tamaño del ícono dentro del botón */
+    height: 32px;
+}
+
+.pelotaC{
+    position: absolute;
+    top: 30px;
+    right: 60px;
+    /* background-color: aqua; */
+}
+.pelotaC > img{
+    width: 80px;
+    height: 45px;
+
+}
+
+.visible {
+    display: block;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.visible {
+    display: flex !important;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    position: relative;
+}
+
+.oculto {
+    display: none !important;
+    opacity: 0;
+}
+
+.Group-10{
+    width: auto;
+    height: auto;
+}
+

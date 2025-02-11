@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    text-decoration: none;
+}
+
+:root {
+    --sickly-yellow: #cbe346;
+    --white-two: #d8d8d8;
+    --dark-two: #2b3049;
+    --dark: #1e2335;
+    --pale-grey: #f3f4f8;
+    --warm-grey: #787878;
+    --white: #fff;
+    --dark-three: #282e47;
+    --lightgray:#ebebeb;
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/logoVentana.png" type="image/x-icon">
+    <meta name="description" content="Tienda online de tenis, raquetas, accesorios y más. Compra todo lo que necesitas para jugar tenis como un profesional.">
+
+    <title>Tienda Online | Tennis</title>
+    <link rel="stylesheet" href="./assets/css/normalize.min.css">
+
+    <link rel="stylesheet" href="./assets/css/styles.min.css">
+    <link rel="stylesheet" href="./assets/css/index.min.css">
+    <link rel="stylesheet" href="./assets/css/responsive.min.css">
+
+</head>
+<body>
+    <header class="headerTennis">
+        <nav>
+            <!-- Botón hamburguesa -->
+            <div class="menu-hamburguesa" onclick="toggleMenu()" aria-label="Abrir menú">
+                <img src="./assets/img/menu.png" loading="lazy" alt="Menu">
+            </div>
+            
+            <div class="navegacionPaginas">
+                <a class="text-style-1" href="./index.html">Inicio</a>
+                <a class="text-style-1" href="./pages/acerca_nosotros.html">Acerca de nosotros</a>
+                <a class="text-style-1" href="./pages/historia.html">Historia</a>
+                <a class="text-style-1" href="./pages/contacto.html">Contacto</a>
+            </div>
+            <div class="cambiarIdioma">
+                <a class="text-style-1" href="#">ES</a>
+                <a class="text-style-1" href="#">EN</a>
+            </div>
+        </nav>
+    </header>
+    <main class="contenidoTennis">
+        <section class="groupTennis">
+            <div>
+                <h1>Las mejores raquetas para jugar <span>Tennis</span></h1>
+                <a href="./pages/acerca_nosotros.html" class="rectangulo">ACERCA DE NOSOTROS <img src="./assets/img/arrow.png" loading="lazy" alt="flecha"></a>
+            </div>
+        </section>
+        <div class="pelotaB">
+            <img src="./assets/img/fill-2.svg" loading="lazy" alt="producto pelota"
+                        srcset="./assets/img/fill-2.svg 2x,
+                        ./assets/img/fill-2.svg 3x"
+                        class="Fill-2">
+        </div>
+        <section class="groupAccesorios">
+            <div class="groupAccesoriosRaquetas">
+                <h1>Raquetas.Accesorios.<br>Pelotas</h1>
+                <p>Conoce nuestras raquetas y aprende a jugar <br> Tennis cómo un profesional</p>
+            </div>
+            <div class="groupAccesoriosHistoria">
+                <a href="./pages/historia.html">HISTORIA <span> →</span></a>
+            </div>
+        </section>
+        <section class="groupRaquetas">
+            <div class="groupRaquetas-carrusel">
+                <h1 id="raqueta-titulo">Nuestras Raquetas</h1>
+                <p id="raqueta-descripcion">Conoce nuestras raquetas y aprende a jugar Tennis como un profesional.</p>
+            
+                <button class="op-carrusel" data-index="0" aria-label="Imagen 1"></button>
+                <button class="op-carrusel" data-index="1" aria-label="Imagen 2"></button>
+                <button class="op-carrusel" data-index="2" aria-label="Imagen 3"></button>
+                <button class="op-carrusel" data-index="3" aria-label="Imagen 4"></button>
+
+                <button class="antescarrusel" aria-label="Carrusel anterior">
+                    &#9664;
+                </button>
+                <button class="siguientecarrusel" aria-label="Carrusel siguiente">
+                    &#9654;
+                </button>
+
+            </div>
+            
+            <div class="groupRaquetas-slider">
+                <div>
+                    <img src="./assets/img/group-10.webp" alt="raqueta"
+                        srcset="./assets/img/group-10@2x.webp 2x,
+                            ./assets/img/group-10@3x.webp 3x"
+                            loading="lazy"
+                        class="Group-10">
+                    <span>1</span>
+                    
+                </div>
+                <div>
+                    <img loading="lazy" src="./assets/img/group-10.webp" alt="raqueta"
+                        srcset="./assets/img/group-10@2x.webp 2x,
+                            ./assets/img/group-10@3x.webp 3x"
+                        loading="lazy"
+                    class="Group-10">
+                    <span>2</span>
+                </div>
+                <div>
+                    <img loading="lazy" src="./assets/img/group-10.webp" alt="raqueta"
+                        srcset="./assets/img/group-10@2x.webp 2x,
+                            ./assets/img/group-10@3x.webp 3x"
+                        class="Group-10">
+                    <span>3</span>
+                </div>
+                
+                <div>
+                    <img loading="lazy" src="./assets/img/group-10.webp" alt="raqueta"
+                        srcset="./assets/img/group-10@2x.webp 2x,
+                            ./assets/img/group-10@3x.webp 3x"
+                        class="Group-10">
+                    <span>4</span>
+                </div>
+                <div>
+                    <img loading="lazy" src="./assets/img/group-10.webp" alt="raqueta"
+                        srcset="./assets/img/group-10@2x.webp 2x,
+                            ./assets/img/group-10@3x.webp 3x"
+                        class="Group-10">
+                    <span>5</span>
+                </div>
+                <div>
+                    <img loading="lazy" src="./assets/img/group-10.webp" alt="raqueta"
+                        srcset="./assets/img/group-10@2x.webp 2x,
+                            ./assets/img/group-10@3x.webp 3x"
+                        class="Group-10">
+                    <span>6</span>
+                </div>
+                    
+                <div> 
+                    <img loading="lazy" src="./assets/img/group-10.webp" alt="raqueta"
+                        srcset="./assets/img/group-10@2x.webp 2x,
+                            ./assets/img/group-10@3x.webp 3x"
+                        class="Group-10">
+                    <span>7</span>
+                </div>
+                <div>
+                    <img loading="lazy" src="./assets/img/group-10.webp" alt="raqueta"
+                        srcset="./assets/img/group-10@2x.webp 2x,
+                            ./assets/img/group-10@3x.webp 3x"
+                        class="Group-10">
+                    <span>8</span>
+                </div>
+                <div>
+                    <img loading="lazy" src="./assets/img/group-10.webp" alt="raqueta"
+                        srcset="./assets/img/group-10@2x.webp 2x,
+                            ./assets/img/group-10@3x.webp 3x"
+                        class="Group-10">
+                    <span>9</span>
+                </div>
+                <div>
+                    <img loading="lazy" src="./assets/img/group-10.webp" alt="raqueta"
+                        srcset="./assets/img/group-10@2x.webp 2x,
+                            ./assets/img/group-10@3x.webp 3x"
+                        class="Group-10">
+                    <span>10</span>
+                </div>
+                <div>
+                    <img loading="lazy" src="./assets/img/group-10.webp" alt="raqueta"
+                        srcset="./assets/img/group-10@2x.webp 2x,
+                            ./assets/img/group-10@3x.webp 3x"
+                        class="Group-10">
+                    <span>11</span>
+                </div>
+                <div>
+                    <img loading="lazy" src="./assets/img/group-10.webp" alt="raqueta"
+                        srcset="./assets/img/group-10@2x.webp 2x,
+                            ./assets/img/group-10@3x.webp 3x"
+                        class="Group-10">
+                    <span>12</span>
+                </div>
+
+            </div>
+        </section>
+        <section class="groupImagen">
+            <img loading="lazy" src="./assets/img/action-athlete-ball-342361.webp" srcset="./assets/img/action-athlete-ball-342361@2x.webp x2,
+            ./assets/img/action-athlete-ball-342361@3x.webp x3" alt="tennis"/>
+        </section>
+    </main>
+    <footer class="footerTennis">
+        <div>
+            <div class="enlaces-footer">
+                <a href="./index.html">Inicio</a>
+                <a href="./pages/acerca_nosotros.html">Acerca de nosotros</a>
+                <a href="./pages/historia.html">Historia</a>
+                <a href="./pages/contacto.html">Contacto</a>
+            </div>
+            <div class="redes-sociales">
+                <a href="#"><img loading="lazy" src="./assets/img/redes_in.svg" alt="linkedin"/></a>
+                <a href="#"><img loading="lazy" src="./assets/img/redes_vimo.svg" alt="vimo"/></a>
+                <a href="#"><img loading="lazy" src="./assets/img/redes_instagram.svg" alt="instagram"/></a>
+                <a href="#"><img loading="lazy" src="./assets/img/redes_twitter.svg" alt="twitter"/></a>
+                <a href="#"><img loading="lazy" src="./assets/img/redes_facebook.svg" alt="facebook"/></a>
+            </div>
+            <div class="pelotaC">
+                <img loading="lazy" src="./assets/img/fill-2.svg" alt="pelota tennis" class="Fill-2" />
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script de JavaScript -->
+    <script src="./assets/javascript/index.min.js" defer></script>
+</body>
+</html>
